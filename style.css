@@ -1,0 +1,34 @@
+#container {
+  width: 450px;
+  height: 300px;
+  background: url(/img/tea.jpg) no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  margin: auto;
+  -webkit-box-shadow: 4px 4px 2px #5a5a5a;
+          box-shadow: 4px 4px 2px #5a5a5a;
+}
+
+#container div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.63);
+}
+
+#container div h1 {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-size: 2.5rem;
+  font-family: 'Antic', sans-serif;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  text-shadow: 2px 2px 1px grey;
+}
+
+#container div h1:hover {
+  font-size: 4rem;
+  top: 30%;
+  text-shadow: 2px 2px 1px goldenrod;
+}
+/*# sourceMappingURL=style.css.map */
